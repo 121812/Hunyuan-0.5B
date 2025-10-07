@@ -102,7 +102,7 @@ messages = [
 ]
 tokenized_chat = tokenizer.apply_chat_template(
     messages, 
-    tokenize=False
+    tokenize=False,
     add_generation_prompt=True,
     enable_thinking=True
 )
